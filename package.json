@@ -1,0 +1,22 @@
+{
+  "name": "ethers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "read.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "imap": "^0.8.19",
+    "mailparser": "^3.7.1",
+    "worker-thread": "^1.1.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/imap": "^0.8.40",
+    "@types/mailparser": "^3.4.4"
+  }
+}
