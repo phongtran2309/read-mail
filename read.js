@@ -102,7 +102,7 @@ if (isMainThread) {
                   const body = `Body: ${parsed.text}\n`;
 
                   // Ghi kết quả vào file email.txt
-                  const filename = path.join('result', `email_${username}.txt`);
+                  const filename = path.join('result', `${username}.txt`);
                   fs.writeFile(filename, subject + body, (err) => {
                     if (err) throw err;
                     console.log(`Email content written to ${filename}`);
